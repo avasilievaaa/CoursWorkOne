@@ -33,10 +33,9 @@ public class Main {
         }
         System.out.println("Сумма затрат на зарплаты в месяц составила: " + sum + " рублей");
         // средняя зарплата
-        float averageValue = sum/12;
+        float averageValue = sum/employee.length;
         System.out.println("Средняя зарплата составила: " + sum + " рублей");
         return sum;
-
     }
     //сотрудник с минимальной зарплатой
     public static Employee minSalary () {
@@ -69,16 +68,6 @@ public class Main {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
